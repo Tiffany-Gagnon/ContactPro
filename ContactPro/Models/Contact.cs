@@ -51,7 +51,6 @@ namespace ContactPro.Models
         [Display(Name = "Phone Number")]
         public string? PhoneNumber { get; set; }
 
-        [Required]
         [DataType(DataType.Date)]
         public DateTime? Created { get; set; }
 
